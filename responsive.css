@@ -1,0 +1,125 @@
+@media screen and (max-width:1090px)
+{
+    .filter-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .client-title {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:996px)
+{
+    .filter-link ul li {
+        padding: 10px 2px;
+    }
+    .specialties-list ul li {
+        text-align: left;
+    }
+}
+@media screen and (max-width:964px)
+{
+    .footer-img img {
+        width: 146px;
+    }
+}
+@media screen and (max-width:980px)
+{
+    .main-img {
+        max-width: 631px;
+        text-align: center;
+    }
+    .main-title {
+        margin-top: 36px;
+    }
+    .defult-title h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width:710px) 
+{
+    .service-left.text-center {
+        margin: auto;
+        margin-bottom: 33px;
+    }
+}
+
+@media screen and (max-width:574px)
+{
+    .filter-img {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+    .client-title {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .filter-img-list img {
+        text-align: center;
+    }
+    .main-title h1 {
+        font-size: 2.8rem;
+    }
+}
+@media screen and (max-width:480px)
+{
+    .contact-location .bangladesh span {
+        font-size: 1.9rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    h4.mt-3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:440px)
+{
+    .logo img {
+        width: 192px;
+        margin-left: 58px;
+    }
+    .logo .first-img {
+        width: 62px;
+        left: -36px;
+    }
+    .main-title h1 {
+        font-size: 1.8rem;
+    }
+    .main-title p {
+        font-size: 1rem;
+    }
+    .contact-location .bangladesh span {
+        font-size: 1rem;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    h4.mt-3 {
+        margin-top: 5px !important;
+    }
+    .specialties-list ul li {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:398px)
+{
+    h4.mt-3 {
+        font-size: 16px;
+    }
+    .contact-location .bangladesh span {
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width:346px)
+{
+    .logo .first-img {
+        width: 41px;
+        left: -26px;
+    }
+    .logo img {
+        width: 152px;
+        margin-left: 40px;
+    }
+    .defult-title h1 {
+        font-size: 30px;
+    }
+}
