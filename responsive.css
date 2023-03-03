@@ -122,4 +122,7 @@
     .defult-title h1 {
         font-size: 30px;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
