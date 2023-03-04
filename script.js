@@ -50,3 +50,6 @@ topBtn.addEventListener("click", () => {
         behavior:"smooth",
     })
 })
+
+// animaiton init link 
+AOS.init();
