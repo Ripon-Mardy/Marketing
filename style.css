@@ -97,6 +97,20 @@ body
 }
 
 /* === header section ===  */
+.logo
+{
+   position: relative;
+}
+.logo span {
+   position: absolute;
+   right: -150px;
+   font-size: 13px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: var(--header-link-color);
+   top: 92px;
+   letter-spacing: 1px;
+   font-weight: 800;
+}
 .logo img
 {
    width: 110px;
@@ -130,7 +144,7 @@ body
 }
 
 .main-title h1{
-   font-size: 3.8rem;
+   font-size: 3.1rem;
    font-weight: 700;
    line-height: 1.0;
    color: #5F28FC;
