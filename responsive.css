@@ -98,6 +98,9 @@
     .team-title {
         margin-top: 25px;
     }
+    .about-right {
+        margin-top: 31px;
+    }
 }
 @media screen and (max-width:440px)
 {
