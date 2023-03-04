@@ -6,6 +6,9 @@
     .client-title {
         grid-template-columns: repeat(2, 1fr);
     }
+    body{
+        overflow-x: hidden;
+    }
 }
 @media screen and (max-width:996px)
 {
@@ -58,11 +61,23 @@
     .main-title h1 {
         font-size: 2.8rem;
     }
+    .contact-right {
+        margin-top: 53px;
+    }
+    .container, .container-sm {
+        max-width: 703px;
+    }
 }
 @media screen and (max-width:750px)
 {
     body{
         overflow-x: hidden;
+    }
+}
+@media screen and (max-width:508px)
+{
+    .defult-title h1 {
+        font-size: 30px;
     }
 }
 @media screen and (max-width:480px)
@@ -76,17 +91,17 @@
     h4.mt-3 {
         font-size: 20px;
     }
+    
+}
+@media screen and (max-width:466px)
+{
+    .team-title {
+        margin-top: 25px;
+    }
 }
 @media screen and (max-width:440px)
 {
-    .logo img {
-        width: 192px;
-        margin-left: 58px;
-    }
-    .logo .first-img {
-        width: 62px;
-        left: -36px;
-    }
+
     .main-title h1 {
         font-size: 1.8rem;
     }
@@ -117,14 +132,6 @@
 }
 @media screen and (max-width:346px)
 {
-    .logo .first-img {
-        width: 41px;
-        left: -26px;
-    }
-    .logo img {
-        width: 152px;
-        margin-left: 40px;
-    }
     .defult-title h1 {
         font-size: 30px;
     }
