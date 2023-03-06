@@ -131,6 +131,9 @@
     .main-title p {
         font-size: 1rem;
     }
+    .filter-link ul li {
+        font-size: 1rem;
+    }
     .contact-location .bangladesh span {
         font-size: 1rem;
         width: 30px;
