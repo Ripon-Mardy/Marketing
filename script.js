@@ -53,3 +53,43 @@ topBtn.addEventListener("click", () => {
 
 // animaiton init link 
 AOS.init();
+
+// *** preloader *** 
+let preloader = document.querySelector("#preloder");
+window.addEventListener("load", () => {
+    preloader.style.display = "none"
+})
+
+// *** number animation section *** 
+let counter = document.querySelectorAll(".counter");
+let speed = 60;
+
+let mainSuccesfulySce = document.querySelector(".client-section");
+let sectionOverser = new IntersectionObserver((entries, observer) => {
+
+  let [entry] = entries;
+  if(!entry.isIntersecting) return
+
+  counter.forEach(counters => {
+    counters.innerText = "0"
+  
+    function updateNumber() {
+      let targetNumber = +counters.getAttribute("data-number");
+      let initailNumber = +counters.innerText;
+      let inPerCount = Math.ceil( targetNumber / speed);
+      if(initailNumber < targetNumber) {
+        counters.innerText = initailNumber + inPerCount
+        setTimeout(updateNumber,35)
+      }
+    }
+    updateNumber();
+  })
+
+  observer.unobserve(mainSuccesfulySce)
+
+}, {
+  root : null,
+  threshold : 0,
+})
+
+sectionOverser.observe(mainSuccesfulySce);

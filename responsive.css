@@ -79,6 +79,26 @@
     .defult-title h1 {
         font-size: 30px;
     }
+    #preloder h1 {
+        left: 40%;
+    }
+    .whatsapp-icon {
+        width: 51px;
+        z-index: 99999;
+    }
+}
+@media screen and (max-width:527px)
+{
+    .container
+    {
+        max-width: 425px;
+    }
+    .h5, h5 {
+        font-size: 1rem;
+    }
+    .footer-img img {
+        width: 114px;
+    }
 }
 @media screen and (max-width:480px)
 {
@@ -140,5 +160,14 @@
     }
     body{
         overflow-x: hidden;
+    }
+}
+@media screen and (max-width:375px)
+{
+    .html-progress::after {
+        width: 205px;
+    }
+    .wordpress-progress::after {
+        width: 143px;
     }
 }

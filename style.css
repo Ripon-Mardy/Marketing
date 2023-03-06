@@ -16,6 +16,7 @@ html{
    --text-color: #333;
    --footer-color:#201f22;
 }
+
 /* .container
 {
    max-width: 1221px;
@@ -40,6 +41,36 @@ body
 {
    background: var(--body-color);
    overflow-x: hidden !important;
+}
+/* ** preloader ***  */
+#preloder
+{
+   width: 100%;
+   height: 100vh;
+   background: url(Digital\ marketing\ picture/imageandlogo/preloader.gif) center center;
+   background-repeat: no-repeat;
+   background-color: black;
+   background-size: 200px;
+   color: white;
+   position: fixed;
+   z-index: 999999;
+}
+#preloder h1 {
+   position: absolute;
+   left: 46%;
+   font-size: 19px;
+   top: 58%;
+}
+/* *** whatsapp icon ***  */
+.whatsapp-icon
+{
+   position: absolute;
+   bottom: 20px;
+   right: 30px;
+   cursor: pointer;
+   z-index: 999;
+   position: fixed;
+   width: 70px;
 }
 
 /* == pre create css ===  */
@@ -97,6 +128,10 @@ body
 }
 
 /* === header section ===  */
+header
+{
+   border-bottom: 2px solid #ddd;
+}
 .logo
 {
    position: relative;
@@ -160,7 +195,7 @@ body
 }
 .main-img img
 {
-   max-width: 460px;
+   max-width: 440px;
 }
 /* ==servics secton  ==  */
 .service-left
@@ -197,33 +232,13 @@ body
    margin-top: 20px;
    margin-bottom: 20px;
 }
+.service-left .dropshiping
+{
+  max-width: 300px;
+}
 
 /* ==== wordpress ===  */
-.wordpress-title
-{
-   max-width: 380px;
-   margin: auto;
-   text-align: center;
-   padding: 10px 2px;
-   transition: all .6s ease-in-out;
-}
-.wordpress-title:hover
-{
-   box-shadow: 0 7px 6px rgba(21, 7, 212, 5);
-}
-.wordpress-title img
-{
-   width: 95px;
-}
-.wordpress-title p
-{
-   color: var(--text-color);
-   font-size: 1.3rem;
-}
-.wordpress-title h3
-{
-   font-weight:600 ;
-}
+
 
 
 /* *** portfolio section ***  */
@@ -286,12 +301,29 @@ body
    transition: all .4s ease-in-out;
 }
 
-/* .filter-img-list:hover.filter-img-list img
+.filter-img-list:hover.filter-img-list img
 {
    transform: scale(1.1);
-} */
+}
 
 /* *** about section **  */
+.about-left span, .main-title span,  .team-title-text b, .review-info b, .contact-title span, .defult-title span, .footer-content span
+{
+   animation: animateThree .9s infinite;
+}
+@keyframes animateThree
+{
+   0%{
+      opacity: 0;
+   }
+   100%{
+      opacity:1;
+   }
+}
+.class{
+   animation: none;
+}
+
 .about-left ul
 {
    padding-left: 0;
@@ -311,7 +343,10 @@ body
    font-weight: 800;
    text-transform: capitalize;
 }
-
+.about-right img
+{
+   max-width: 420px;
+}
 .html-progress
 {
    max-width: 400px;
@@ -329,7 +364,7 @@ body
    width:350px;
    height: 7px;
    border-radius: 5px;
-   background: var(--link-hover-color);
+   background: var(--link-hover-color) !important;
 }
 .wordpress-progress
 {
@@ -411,7 +446,7 @@ body
 }
 .team-title-text
 {
-   margin-top: 30px;
+   margin-top: 15px;
    margin-left: 10px;
 }
 .team-title-text h5
@@ -552,6 +587,10 @@ body
    border-color: var(--link-hover-color);
    padding: 14px 10px;
    background: var(--body-color);
+}
+.contact-form input, .contact-form textarea
+{
+   outline: none;
 }
 .lines
 {
@@ -723,4 +762,12 @@ body
 .footer-img img
 {
    width: 250px;
+}
+.footer-input input
+{
+   outline: none;
+}
+.footer-input span
+{
+   animation: none;
 }
