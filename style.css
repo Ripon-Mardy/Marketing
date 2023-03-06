@@ -736,7 +736,7 @@ header
 }
 .copy-end span
 {
-   font-size: 1.9rem;
+   font-size: 1.8rem;
    background: var(--link-hover-color);
    padding: 10px;
    cursor: pointer;
