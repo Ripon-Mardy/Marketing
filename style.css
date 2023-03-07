@@ -173,11 +173,11 @@ header
 }
 .main-img
 {
-   margin-top: 100px;
+   margin-top: 150px;
 }
 .main-img img
 {
-   max-width: 440px;
+   max-width: 800px;
 }
 /* ==servics secton  ==  */
 .service-left
@@ -327,7 +327,7 @@ header
 }
 .about-right img
 {
-   max-width: 420px;
+   max-width: 700px;
 }
 .html-progress
 {
@@ -577,6 +577,10 @@ header
 .lines
 {
    height: 10px;
+}
+.contact-form button
+{
+   border: none;
 }
 
 /* ==== about project ===== */

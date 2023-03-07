@@ -54,12 +54,6 @@ topBtn.addEventListener("click", () => {
 // animaiton init link 
 AOS.init();
 
-// *** preloader *** 
-let preloader = document.querySelector("#preloder");
-window.addEventListener("load", () => {
-    preloader.style.display = "none"
-})
-
 // *** number animation section *** 
 let counter = document.querySelectorAll(".counter");
 let speed = 60;
@@ -93,3 +87,6 @@ let sectionOverser = new IntersectionObserver((entries, observer) => {
 })
 
 sectionOverser.observe(mainSuccesfulySce);
+
+
+// *** form submit form *** 
